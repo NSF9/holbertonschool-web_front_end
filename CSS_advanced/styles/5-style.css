@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 :root {
@@ -18,21 +19,19 @@ html {
   --font-size-xx-large: 4.8rem;
 }
 
-body, a {
+body,
+a {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
 }
-
 .visually-hidden {
   display: none;
 }
-
 .card-category,
 .section-tagline {
   color: var(--color-primary);
 }
-
 h1,
 h2,
 h3,
