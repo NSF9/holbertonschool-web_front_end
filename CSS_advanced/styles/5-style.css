@@ -18,14 +18,10 @@ html {
   --font-size-xx-large: 4.8rem;
 }
 
-body {
+body, a {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
-}
-
-a {
-  color: var(--text-color);
 }
 
 .visually-hidden {
